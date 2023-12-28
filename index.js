@@ -57,7 +57,7 @@ function convertToOther(element,values){
     switch(element){
          case "Feet":FeetToOther(parseFloat(values));break;
          case "Meter":MeterToOther(parseFloat(values));break;
-         case "Inches":FeetToOther(parseFloat(values));break;
+         case "Inches":InchesToOther(parseFloat(values));break;
          case "CM":CMToOther(parseFloat(values));break;
          case "KM":KMToOther(parseFloat(values));break;
          case "Miles":MilesToOther(parseFloat(values));break;
